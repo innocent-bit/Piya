@@ -74,11 +74,11 @@ def stream_markup_timer(_, chat_id, played, dur):
     return buttons
 
 
-def stream_markup(_, chat_id):
-    buttons = [
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
-    ]
-    return buttons
+# def stream_markup(_, chat_id):
+#     buttons = [
+#         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+#     ]
+#     return buttons
 
 
 def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
